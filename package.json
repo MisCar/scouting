@@ -9,7 +9,8 @@
     "deploy": "ng build --configuration production && firebase deploy --only hosting,firestore:rules",
     "test": "ng test",
     "firebase:environment": "node scripts/firebase.js",
-    "create": "node scripts/create.js && npm run firebase:environment && npm run deploy"
+    "create": "node scripts/create.js && npm run firebase:environment && npm run deploy",
+    "TBA:key": "node scripts/TBAkey.js"
   },
   "private": true,
   "dependencies": {
